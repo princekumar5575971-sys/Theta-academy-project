@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://html.aqlova.com/aleric-demo/aleric/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://html.aqlova.com/aleric-demo/aleric/assets/css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <style>
+        .hovering:hover {
+            background-color: #136b59;
+            color: white;
+        }
+
+        .orange {
+            color: rgb(216, 70, 60);
+        }
+
+        ul li a {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        .contact ul li i {
+            display: inline-block;
+            font-size: 16px;
+            color: #ffffff;
+            height: 36px;
+            width: 36px;
+            background: #ff6b6b;
+            line-height: 36px;
+            text-align: center;
+            margin-right: 8px;
+            border-radius: 50%;
+        }
+
+        .hw-btn {
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            background-color: #ff6b6b;
+            color: black;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            display: inline-block;
+            border-radius: 4px;
+        }
+
+        .hw-btn:hover {
+            background-color: #2a5a5a;
+            color: #242121;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    </style>
+
+    <div class="container-fluid border-bottom d-none d-lg-block">
+        <div class="row align-items-center py-1">
+
+
+            <!-- Contact + Button (hidden on small, visible on lg+) -->
+            <div class="col-lg-12 d-none d-lg-flex justify-content-between align-items-center contact">
+                <ul class="list-unstyled d-flex mb-0 ms-2">
+                    <li class="me-4">
+                        <a href="mailto:info@thetaacademy.com" target="_blank" class=" text-black fw-bold">
+                            <i class="bi bi-envelope"></i> <span class="fs-6"> info@thetaacademy.com </span></a>
+                    </li>
+                    <li>
+                        <a href="tel:+916239006443" target="_blank" class="text-black fw-bold">
+                            <i class="bi bi-phone fw-bolder"></i> <span class="fs-6"> 6239 006 443 </span></a> <a
+                            href="tel:+919888135632" target="_blank" class="text-black fw-bold"> | <span class="fs-6">
+                                98881 35632 </span></a>
+                    </li>
+                </ul>
+
+
+                <!-- Social icons -->
+                <div class="d-flex me-1">
+                    <a href="#"><i class="fa-brands fa-facebook text-dark me-3"></i></a>
+                    <a href="https://twitter.com/OThetacademy"><i
+                            class="fa-brands bi bi-twitter-x text-dark me-3"></i></a>
+                    <a href="https://www.youtube.com/channel/UC3Tb ESQETxtDHZ6bcx429g"><i
+                            class="bi bi-youtube text-dark me-3"></i></a>
+                    <a href="https://www.instagram.com/official_thetacademy/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                            class="bi bi-instagram text-dark me-3"></i></a>
+                    <a href="tel:tel:+916239006443"> <i class="bi bi-whatsapp text-dark me-3"></i></a>
+                    <a href=""><i class="bi bi-linkedin text-dark"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../Live_work/Manilogo (1).png" alt="clic to go to main page"
+                    height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="../Project/prj.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active text-black border-bottom border-info border-2 " href="#"> Services</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+                
+        </div>
+    </nav>
+
+
+
+    <section
+        style="background-image: url(../Live_work/1687.jpg); background-repeat:no-repeat; background-size:cover; opacity: 1; background-position: center; ">
+
+        <div class="container" style="background: #242121ad;">
+            <div class="row py-3">
+                <div class="col-12 py-5">
+                    <div class="caption text-white text-center py-5">
+                        <h6><a href="../Project/prj.html" class="text-decoration-none text-white">Home </a>/ Our
+                            Services</h6>
+                        <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Web
+                            Development</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Hero Section-->
+    <style>
+        .avatars img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-left: -10px;
+        }
+    </style>
+
+    <style>
+        .inquiry-form {
+            background: linear-gradient(180deg, #ffffff, #f5f7ff);
+            border-radius: 18px;
+            padding: 22px 18px;
+            border: 1px solid rgba(94, 92, 230, 0.15);
+        }
+
+        .form-title {
+            font-weight: 700;
+            color: #3b3bbf;
+            letter-spacing: 0.3px;
+        }
+
+        .inquiry-form .form-control,
+        .inquiry-form .form-select {
+            border-radius: 10px;
+            border: 1px solid #dcdcff;
+            font-size: 0.9rem;
+            padding: 10px 12px;
+        }
+
+        .inquiry-form .form-control:focus,
+        .inquiry-form .form-select:focus {
+            border-color: #5e5ce6;
+            box-shadow: 0 0 0 0.15rem rgba(94, 92, 230, 0.25);
+        }
+
+        .submit-btn {
+            background: linear-gradient(90deg, #5e5ce6, #7b78ff);
+            color: #fff;
+            font-weight: 600;
+            border-radius: 12px;
+            padding: 10px;
+            transition: 0.3s ease;
+            border: none;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(90deg, #4b49d6, #6a67ff);
+        }
+    </style>
+
+    <section class="hero-section  bg-body-tertiary py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-12 col-md-8 pe-lg-5 text-center text-lg-start">
+
+                    <!-- TOP BADGE -->
+                    <span class="badge rounded-pill bg-primary-subtle text-primary px-3 py-2 mb-3">
+                        🚀 Welcome to Theta Academy
+                    </span>
+
+                    <!-- MAIN HEADING -->
+                    <h1 class="display-5 fw-bold lh-sm mt-3">
+                        Transform Your Business <br>
+                        <span class="text-primary">
+                            with Expert Website Development
+                        </span>
+                    </h1>
+
+                    <!-- SUB TEXT -->
+                    <p class="text-muted fs-5 mt-3 mb-4">
+                        We build modern, responsive, and result-driven websites that help
+                        businesses grow, convert visitors, and stand out digitally.
+                    </p>
+
+                    <!-- CTA + REVIEWS -->
+                    <div class="d-flex flex-column flex-sm-row align-items-center align-items-lg-start gap-4 mb-4">
+
+                        <!-- CTA BUTTON -->
+                        <a href="#contact" class="btn btn-primary btn-lg px-4 fw-semibold shadow-sm">
+                            Get in Touch →
+                        </a>
+
+                        <!-- REVIEWS -->
+                        <div class="d-flex align-items-center">
+                            <div class="avatars d-flex me-2">
+                                <img src="https://i.pravatar.cc/40?img=1">
+                                <img src="https://i.pravatar.cc/40?img=2">
+                                <img src="https://i.pravatar.cc/40?img=3">
+                                <img src="https://i.pravatar.cc/40?img=4">
+                            </div>
+                            <div class="text-start">
+                                <div class="text-warning small">★★★★★</div>
+                                <small class="text-muted">475+ Verified Reviews</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- STATS -->
+                    <div class="row g-4 text-center text-lg-start">
+
+                        <div class="col-6 col-sm-4">
+                            <div class="p-3 border rounded-4 h-100">
+                                <h3 class="fw-bold text-primary mb-1">3k+</h3>
+                                <small class="text-muted">Happy Clients</small>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4">
+                            <div class="p-3 border rounded-4 h-100">
+                                <h3 class="fw-bold text-primary mb-1">15+</h3>
+                                <small class="text-muted">Years Experience</small>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4">
+                            <div class="p-3 border rounded-4 h-100">
+                                <h3 class="fw-bold text-primary mb-1">100%</h3>
+                                <small class="text-muted">Project Satisfaction</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT IMAGE -->
+                <div class="col-12 col-md-4 ">
+                    <div class="inquiry-form shadow-lg">
+                        <h3 class="form-title mb-3 text-center">
+                            Enquiry Form
+                        </h3>
+
+                        <form>
+                            <!-- First Name -->
+                            <div class="mb-2 d-flex">
+                                <input type="text" class="form-control me-1" placeholder="First Name" required>
+
+
+                                <!-- Last Name -->
+
+                                <input type="text" class="form-control ms-1" placeholder="Last Name" required>
+                            </div>
+
+                            <!-- Contact Number -->
+                            <div class="mb-2">
+                                <input type="tel" class="form-control" placeholder="Contact No." required>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="mb-2">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+
+                            <!-- Services Dropdown -->
+                            <div class="mb-2">
+                                <select class="form-select" required>
+                                    <option selected disabled>Select Service</option>
+                                    <option>Website Development</option>
+                                    <option>Web Design</option>
+                                    <option>Digital Marketing</option>
+                                    <option>SEO Services</option>
+                                    <option>UI/UX Design</option>
+                                    <option>Training & Courses</option>
+                                </select>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                            </div>
+
+                            <!-- Submit -->
+                            <button type="submit" class="btn submit-btn w-100">
+                                Submit Enquiry →
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Description Secion-->
+    <style>
+        /* Vertical since text */
+        .since-text {
+            font-size: 48px;
+            color: #79b2cc;
+            font-weight: 800;
+            display: none;
+        }
+
+        /* Image stack */
+        .image-stack {
+            position: relative;
+        }
+
+        /* Experience badge */
+        .exp-badge {
+            position: absolute;
+            top: 20px;
+            right: -20px;
+            background: #0d6efd;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Small overlay image */
+        .small-image {
+            position: absolute;
+            bottom: -40px;
+            right: 30px;
+            width: 200px;
+        }
+
+        /* Feature icons */
+        .icon-circle {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: #e9f2ff;
+            color: #0d6efd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        /* Mobile fixes */
+        @media (max-width: 991px) {
+            .since-text {
+                display: none;
+            }
+
+            .exp-badge {
+                right: 10px;
+            }
+
+            .small-image {
+                position: static;
+                margin-top: 1rem;
+                width: 120px;
+            }
+        }
+    </style>
+    <section class="py-5 fade-scroll">
+        <div class="container">
+            <div class="row  g-5">
+
+                <!-- LEFT IMAGE SECTION -->
+                <div class="col-12 col-lg-5 position-relative ">
+
+                    <!-- Main Image -->
+                    <div class="image-stack justify-content-center text-center">
+                        <img src="../Live_Work/collab_image.png" class="img-fluid rounded-4 shadow mt-3" alt="Web Design">
+
+                        <!-- Experience badge -->
+                        <div class="exp-badge">
+                            <h4 class="mb-0">15+</h4>
+                            <small>Years of<br>Experience</small>
+                        </div>
+
+                        <div class="since-text mt-1 ">SINCE 2020</div>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3 text-center justify-content-center ">
+                        <div class="btn btn-primary rounded-5 fw-bold px-4 py-2"> Register Now</div>
+                        <div class="btn btn-danger rounded-5 fw-bold px-4 py-2">Know More</div>
+                    </div>
+
+
+                </div>
+                <!-- RIGHT CONTENT SECTION -->
+                <div class="col-12 col-lg-7">
+
+                    <h2 class="fw-bold mb-3">
+                        Web Design Company in Chandigarh
+                    </h2>
+
+                    <p class="text-muted">
+                        Having an engaging website is crucial for drawing visitors and driving
+                        business growth in the digital era. Our team focuses on building visually
+                        appealing, functional, and user-friendly websites that help businesses
+                        stand out.
+                    </p>
+
+                    <p class="text-muted">
+                        With a committed team of skilled designers and developers, we ensure
+                        high-quality solutions that align with modern design standards and
+                        business goals.
+                    </p>
+
+                    <!-- FEATURES -->
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-users text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Collaborative Approach</h6>
+                            <p class="text-muted mb-0">
+                                We work closely with clients to understand requirements and deliver
+                                solutions that exceed expectations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-lightbulb text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Customization & Innovation</h6>
+                            <p class="text-muted mb-0">
+                                Each project is customized with innovative ideas to create a unique
+                                and effective digital presence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-mobile-screen text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Responsive & Mobile-First Design</h6>
+                            <p class="text-muted mb-0">
+                                Our websites adapt seamlessly to all screen sizes, ensuring a smooth user
+                                experience across mobiles, tablets, and desktops.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-gauge-high text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Fast Loading & Performance Optimized</h6>
+                            <p class="text-muted mb-0">
+                                We optimize every element for speed and performance, improving user
+                                engagement and reducing bounce rates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-magnifying-glass-chart text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">SEO-Friendly Structure</h6>
+                            <p class="text-muted mb-0">
+                                Clean code, proper headings, and optimized layouts help your website rank
+                                better on search engines like Google.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-shield-halved text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Secure & Reliable Development</h6>
+                            <p class="text-muted mb-0">
+                                We follow best security practices to protect your website from threats
+                                and ensure long-term reliability.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <style>
+        .career-section {
+            background-image: url(../Live_work/use_bg-9x21.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1;
+        }
+
+        .dark-card {
+            background: #2b2f33;
+            padding: 26px 35px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .career-image img {
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .proper-height {
+            height: 5rem;
+        }
+    </style>
+    <section class="py-5 career-section ">
+        <div class="container text-white">
+            <h2 class="text-center fw-bold text-white mb-5">Why Choose Web Development ?</h2>
+
+            <!-- ITEM 1 -->
+            <div class="row align-items-center fade-scroll mb-5 py-3">
+                <div class="col-lg-6 mb-4 mb-lg-0 ">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">High Demand in Market</h4>
+                        <p class="mb-0 text-light">
+                            Web development offers high career demand, global opportunities, and the ability to earn
+                            through jobs or freelancing. It is a skill-based career where students can create real
+                            projects and grow continuously.
+                        </p>
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-briefcase text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1 ">Career-Ready Skills</h6>
+                                <p class=" mb-0 small">
+                                    Learn industry-relevant skills that companies actually hire for.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-globe text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Global Opportunities</h6>
+                                <p class=" mb-0 small">
+                                    Work with clients and companies from anywhere in the world.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-code text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Build Real Projects</h6>
+                                <p class=" mb-0 small">
+                                    Create real websites and add them to your portfolio.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-rocket text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Fast Career Growth</h6>
+                                <p class=" mb-0 small">
+                                    Start as a beginner and grow into advanced roles quickly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="career-image">
+                        <img src="../Live_work/illustration1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="row align-items-center fade-scroll mb-5 flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">Skill-Based Growth</h4>
+                        <p class="mb-0 text-light">
+                            This learning path is perfect for beginners and students who want to start from scratch. It
+                            removes the fear of complexity by offering clear guidance, practical examples, and
+                            continuous support, helping learners gain confidence and grow steadily.
+                        </p>
+
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-seedling text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Beginner-Friendly Learning</h6>
+                                <p class=" mb-0 small">
+                                    Designed for students and beginners starting from absolute scratch.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-book-open-reader text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Step-by-Step Guidance</h6>
+                                <p class=" mb-0 small">
+                                    Learn with structured lessons that remove confusion and fear.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-laptop-code text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Practical, Hands-On Approach</h6>
+                                <p class=" mb-0 small">
+                                    Practice with real examples instead of just theory.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-chart-line text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Confidence That Grows</h6>
+                                <p class=" mb-0 small">
+                                    Build skills gradually and grow with confidence at every step.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="career-image">
+                        <img src="../Live_work/illustration2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="row align-items-center fade-scroll mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">Strong Earning Potential</h4>
+                        <p class="mb-0 text-light">
+                            Skill-based growth emphasizes learning practical, industry-relevant skills rather than
+                            relying solely on academic degrees. It focuses on developing real abilities that can be
+                            applied in real-world situations, helping individuals become more confident, adaptable, and
+                            job-ready.
+                        </p>
+
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-indian-rupee-sign text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Multiple Income Opportunities</h6>
+                                <p class=" mb-0 small">
+                                    Earn through jobs, freelancing, side projects, or remote work.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-briefcase text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Industry-Relevant Skills</h6>
+                                <p class=" mb-0 small">
+                                    Skills that companies pay for, not just academic knowledge.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-laptop-house text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Work from Anywhere</h6>
+                                <p class=" mb-0 small">
+                                    Opportunity to earn globally with location-independent work.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-arrow-trend-up text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Income Grows with Experience</h6>
+                                <p class=" mb-0 small">
+                                    The more you learn and practice, the higher your earning potential.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="career-image">
+                        <img src="../Live_work/illustration3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="row align-items-center fade-scroll mb-5 flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">Multiple Career Paths</h4>
+                        <p class="mb-0 text-light">
+                            Freelancing and remote work options make it possible for students and beginners to start
+                            earning while learning. By working on real projects, learners gain practical experience,
+                            improve their skills, and enjoy the flexibility of working from home or any location.
+                        </p>
+
+
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-laptop-house text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Freelancing Opportunities</h6>
+                                <p class=" mb-0 small">
+                                    Start earning by working with clients while learning and improving skills.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-globe text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Remote Job Options</h6>
+                                <p class=" mb-0 small">
+                                    Work with national and international companies from anywhere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-diagram-project text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Project-Based Experience</h6>
+                                <p class="mb-0 small">
+                                    Gain hands-on experience by working on real-world projects.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-shuffle text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Flexible Career Choices</h6>
+                                <p class=" mb-0 small">
+                                    Switch roles or explore multiple paths as your skills grow.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="career-image">
+                        <img src="../Live_work/illustration4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="row align-items-center fade-scroll mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">Creative & Logical Work</h4>
+                        <p class="mb-0 text-light">
+                            Creative and logical thinking work together to help learners approach challenges in a
+                            smarter way. Creativity allows new ideas to form, while logic ensures those ideas are
+                            structured, practical, and effective. This mindset builds confidence and strong analytical
+                            skills.
+                        </p>
+
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-palette text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Creative Problem Solving</h6>
+                                <p class=" mb-0 small">
+                                    Think creatively to design unique and engaging digital solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-brain text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Logical Thinking</h6>
+                                <p class=" mb-0 small">
+                                    Use logic to structure ideas into functional and efficient solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-puzzle-piece text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Smart Approach to Challenges</h6>
+                                <p class=" mb-0 small">
+                                    Break complex problems into simple, manageable parts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-chart-simple text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Strong Analytical Skills</h6>
+                                <p class=" mb-0 small">
+                                    Develop analytical thinking that improves decision-making.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="career-image">
+                        <img src="../Live_work/bg-illustration2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 6 -->
+            <div class="row align-items-center fade-scroll flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="career-card dark-card">
+                        <h4 class="fw-bold text-white">Future-Proof Career</h4>
+                        <p class="mb-0 text-light">
+                            With applications in various industries, learners are not limited to a single career path.
+                            These skills are in demand across different sectors, giving students the freedom to explore
+                            diverse roles and choose careers that match their interests and strengths.
+                        </p>
+
+                        <!-- ICON POINTS -->
+                        <div class="d-flex gap-3 my-3">
+                            <i class="fa-solid fa-shield-halved text-success fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">In-Demand Across Industries</h6>
+                                <p class=" mb-0 small">
+                                    Skills that are required in tech, business, startups, and more.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-arrows-rotate text-primary fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Adaptable to Change</h6>
+                                <p class=" mb-0 small">
+                                    Easily evolve with new tools, trends, and technologies.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-3">
+                            <i class="fa-solid fa-briefcase text-warning fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Multiple Industry Roles</h6>
+                                <p class=" mb-0 small">
+                                    Explore careers across various sectors without being limited.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="fa-solid fa-user-graduate text-danger fs-4"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Long-Term Career Stability</h6>
+                                <p class=" mb-0 small">
+                                    Build a career that stays relevant for years to come.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="career-image">
+                        <img src="../Live_work/team1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Why learn Web development in CHD/ Section-4-->
+    <style>
+        .feature-box {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.35s ease;
+            background: #fff;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 0.8s ease forwards;
+            text-align: center;
+        }
+
+
+
+
+        .feature-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 5px 15px 35px rgba(0, 0, 0, 0.08);
+            background-color: #2a5a5a9a;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: #dc3545;
+        }
+
+        /* Simple stagger animation */
+        .feature-box:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .feature-box:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .feature-box:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .feature-box:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .feature-box:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .feature-box:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <section class="py-5 bg-body-tertiary fade-scroll"
+        style="background-image: url(../Live_work/footer-map-bg.png); background-repeat: repeat-y; background-size: contain;">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">
+                    Why you should learn
+                    <span class="text-danger">Best Web Designing</span><br>
+                    <span class="text-danger">Training in Chandigarh?</span>
+                </h2>
+                <p class="text-muted mt-3">
+                    There are many web development training institutes, but choosing the
+                    right one makes all the difference. Here are some of the biggest reasons
+                    to choose web development as your career path.
+                </p>
+            </div>
+
+            <!-- FEATURES GRID -->
+            <div class="row g-4">
+
+                <!-- ITEM -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-briefcase feature-icon"></i>
+                        <h6 class="fw-bold mt-3">35,00,000+ Jobs Available</h6>
+                        <p class="text-muted small">
+                            Millions of job opportunities are available in web development
+                            across India and globally.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-graduation-cap feature-icon"></i>
+                        <h6 class="fw-bold mt-3">No Degree Required</h6>
+                        <p class="text-muted small">
+                            Skills matter more than degrees. Anyone can start learning and
+                            become job-ready.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-shield-halved feature-icon"></i>
+                        <h6 class="fw-bold mt-3">Resources</h6>
+                        <p class="text-muted small">
+                            Access high-quality learning resources and practical tools during
+                            training.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-user-check feature-icon"></i>
+                        <h6 class="fw-bold mt-3">Interview Preparation</h6>
+                        <p class="text-muted small">
+                            Get interview guidance and confidence to crack technical rounds.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-laptop-house feature-icon"></i>
+                        <h6 class="fw-bold mt-3">Freelancing</h6>
+                        <p class="text-muted small">
+                            Start freelancing and earn from home by working on real projects.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-box h-100">
+                        <i class="fa-solid fa-building feature-icon"></i>
+                        <h6 class="fw-bold mt-3">Work at a Company</h6>
+                        <p class="text-muted small">
+                            Join IT companies, startups, or agencies after completing training.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        .custom-accordion .accordion-item {
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 0.25rem;
+            border: 1px solid #ddd;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .custom-accordion .accordion-item:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .accordion-button {
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #000;
+        }
+
+        /* CTA */
+        .cta-box {
+            background: #ffffff;
+            border-radius: 20px;
+        }
+
+        .cta-btn {
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(13, 110, 253, 0.3);
+        }
+
+        .accordion-button:active {
+            color: #2a5a5a;
+            background-color: rgb(235, 83, 83);
+        }
+
+        .accordion-button::after {
+            color: #2a5a5a;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background: linear-gradient(90deg, #e3f2fd, #ffffff);
+            border-left: 5px solid #0d6efd;
+        }
+
+
+
+        @media (max-width: 576px) {
+            .text-center img {
+                width: 140px;
+            }
+        }
+    </style>
+
+    <style>
+        .client-marquee {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .client-track {
+            display: flex;
+            width: max-content;
+            animation: clientScroll 25s linear infinite;
+        }
+
+        .client-item {
+            flex: 0 0 auto;
+            padding: 0 2.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .client-item img {
+            max-height: 60px;
+            width: auto;
+            filter: grayscale(100%);
+            opacity: 0.85;
+            transition: all 0.3s ease;
+        }
+
+        .client-item img:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        /* Infinite horizontal animation */
+        @keyframes clientScroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .client-marquee:hover .client-track {
+            animation-play-state: paused;
+        }
+
+        @media (max-width: 768px) {
+            .client-item img {
+                max-height: 45px;
+            }
+        }
+    </style>
+    <section class="py-5 bg-light fade-scroll"
+        style="background-image: url(../Live_work/footer-map-bg.png); background-repeat:repeat; background-size: contain;">
+        <div class="container">
+
+            <!-- SECTION TITLE -->
+            <div class="text-center mb-4">
+                <h5 class="text-muted">
+                    Description Of Best Web Development Institute in Chandigarh
+                </h5>
+            </div>
+
+
+            <!-- ACCORDION -->
+            <div class="accordion custom-accordion mb-5" id="webAccordion">
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#itemOne"> <i class="fa-solid fa-laptop-code text-primary me-2"></i>
+                            A professionally designed website works as a continuous marketing tool
+                        </button>
+                    </h2>
+                    <div id="itemOne" class="accordion-collapse collapse show" data-bs-parent="#webAccordion">
+                        <div class="accordion-body">
+                            <p>
+                                A professionally designed website helps businesses build trust, improve
+                                online visibility, and convert visitors into customers. Our approach focuses
+                                on modern design, performance, and user experience to ensure long-term
+                                digital success.
+                            </p>
+
+                            <p class="fw-semibold">
+                                Our web design process focuses on the following key aspects:
+                            </p>
+
+                            <ul class="benefits-list">
+                                <li><i class="fa-solid fa-check-circle text-success me-2"></i>Clean, modern, and
+                                    visually appealing layouts</li>
+                                <li><i class="fa-solid fa-bolt text-warning me-2"></i>Fast-loading pages optimized for
+                                    performance</li>
+                                <li><i class="fa-solid fa-users text-info me-2"></i>User-focused design for better
+                                    engagement and conversions</li>
+                                <li><i class="fa-solid fa-search text-primary me-2"></i>SEO-friendly structure for
+                                    improved search rankings</li>
+                                <li><i class="fa-solid fa-mobile-screen text-danger me-2"></i>Fully responsive design
+                                    across all devices</li>
+                                <li><i class="fa-solid fa-arrow-up-right-dots text-success me-2"></i>Scalable
+                                    architecture for future growth</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#benefitsWebDev" aria-expanded="false" aria-controls="benefitsWebDev">
+                            <i class="fa-solid fa-star text-secondary me-2"></i>
+                            Benefits of Choosing Web Development from Theta Academy
+                        </button>
+                    </h2>
+
+                    <div id="benefitsWebDev" class="accordion-collapse collapse" data-bs-parent="#webAccordion">
+                        <div class="accordion-body">
+
+                            <p class="fw-semibold">
+                                Web development offers career growth, global job opportunities,
+                                freelancing income, and the ability to build real-world projects using
+                                practical skills.
+                            </p>
+
+                            <p>
+                                It provides students with job-oriented skills useful across industries.
+                                Learners can create real websites, build strong portfolios, earn while
+                                studying, and work with clients globally. Web development also enhances
+                                creativity, logical thinking, and continuous growth, making it a
+                                future-ready career choice.
+                            </p>
+
+                            <ul class="benefits-list mt-3">
+                                <li>💼💰 Strong job and earning potential</li>
+                                <li>🛠️ Practical, skill-based learning</li>
+                                <li>🌐 Create real websites & live projects</li>
+                                <li>🎓💸 Earn while studying</li>
+                                <li>🌍 Global work opportunities</li>
+                                <li>🚀 Future-proof and in-demand career</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#itemTwo">
+                            <i class="fa-solid fa-briefcase text-primary me-2"></i>
+                            100% Job Placement
+                        </button>
+                    </h2>
+                    <div id="itemTwo" class="accordion-collapse collapse" data-bs-parent="#webAccordion">
+                        <div class="accordion-body">
+
+                            Excellence technology offers 100% job placement guarantee. We help the student to learn how
+                            to make a responsive websites. Our course content have standard, with all possibilities
+                            explored. We train student to design, based on real user research and insights.
+                            <br>
+
+                            Our training programs are designed to make students job-ready with practical
+                            skills, interview preparation, and real-world project experience.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#itemThree">
+                            <i class="fa-solid fa-graduation-cap text-dark me-2"></i>
+                            Get your business on top with the best website design services
+                        </button>
+                    </h2>
+                    <div id="itemThree" class="accordion-collapse collapse" data-bs-parent="#webAccordion">
+                        <div class="accordion-body">
+                            We focus on modern, responsive, and performance-driven web solutions that
+                            help businesses stand out and grow digitally.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="py-5 bg-light overflow-hidden">
+                <div class="container">
+
+                    <!-- HEADING (FIXED) -->
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold text-danger">Our Clients</h2>
+                        <p class="text-muted">
+                            Trusted by clients across industries for quality service, reliability, and real results.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- CLIENT MARQUEE -->
+                <div class="client-marquee">
+                    <div class="client-track">
+
+                        <!-- CLIENT ITEMS -->
+                        <div class="client-item"><img src="../Live_work/realmee.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/flydream.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/chanakaya-ccc.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/elvicto.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/aigenix.avif" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/diycam-india.webp" alt=""></div>
+
+                        <!-- DUPLICATE FOR SMOOTH LOOP -->
+                        <div class="client-item"><img src="../Live_work/realmee.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/flydream.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/chanakaya-ccc.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/elvicto.png" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/aigenix.avif" alt=""></div>
+                        <div class="client-item"><img src="../Live_work/diycam-india.webp" alt=""></div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- CTA SECTION -->
+            <div class="text-center cta-box py-3">
+                <h2 class="fw-bold mb-4">
+                    Still confused? Let’s talk!
+                </h2>
+
+                <a href="tel:+916239006443" class="btn btn-primary btn-sm cta-btn fw-bold">
+                    <i class="fa-solid fa-phone me-2"></i> CALL US NOW
+                </a>
+
+                <a href="tel:+916239006443" class="btn btn-danger btn-sm cta-btn fw-bold">
+                    <i class="bi bi-whatsapp me-2"></i> MESSAGE US NOW
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <style>
+        .why-choose-us {
+            background: linear-gradient(180deg, #fafafa, #f4f4f4);
+        }
+
+        .text-gradient {
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Feature cards */
+
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 20px;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 38px;
+            color: #ff4b2b;
+            background: rgba(255, 75, 43, 0.1);
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        /* Counter boxes */
+
+        .counter-box {
+            color: #222;
+        }
+
+        .feature-card:hover .feature-icon {
+            background: linear-gradient(135deg, #ff6b6b, #feca57);
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .counter {
+            font-size: 40px;
+            font-weight: 700;
+            color: #ff4b2b;
+            transition: color 0.3s;
+        }
+
+        .counter-box:hover .counter {
+            color: #4b6cb7;
+        }
+
+        .counter-box p {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #666;
+        }
+
+        /* Responsive adjustments */
+
+        @media (max-width: 767px) {
+            .feature-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 28px;
+            }
+
+            .counter {
+                font-size: 32px;
+            }
+        }
+    </style>
+    <!--Why Choose Us without Image also having a heading in center-->
+    <section class="pb-5 fade-scroll">
+        <div class="container-fluid">
+            <!-- Container Heading -->
+
+
+            <!-- Content Block -->
+            <div class="row g-4 align-items-center rounded-4 shadow-lg px-3 pt-0 pb-3 p-md-4 "
+                style="background-image: url(../Live_work/6530.jpg); opacity: 1 ; background-repeat: repeat; background-size: cover;">
+                <div class="col-12">
+                    <div class="text-center mb-2">
+                        <h2 class="display-6 fw-bold text-uppercase letter-spacing-1 underline-accent">
+                            WHY CHOSE US ?
+                        </h2>
+
+                    </div>
+                </div>
+
+                <!-- Description Column: col-8 on lg+, full width on mobile -->
+                <div class="col-12 ">
+                    <h3 class="fw-bold mb-3 royal-gradient text-center">Professional. Proven. People‑First.</h3>
+                    <p class="lead mb-4 text-center">
+                        We craft digital experiences that look refined and feel effortless. Our team blends classic
+                        aesthetics with modern engineering—so your brand speaks luxury while your product performs
+                        flawlessly.
+                    </p>
+
+                    <!-- Feature cards -->
+                    <div class="row g-4 justify-content-center text-center mb-2">
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Real Projects & Job Assistance</h6>
+                                <p class="mb-0 text-secondary small">
+                                    Build a strong portfolio and receive complete support for placements, resumes, and
+                                    interviews.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-stars"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Premium Craft & Finish</h6>
+                                <p class="mb-0 text-secondary small">Pixel‑perfect UI, elegant typography, and finely
+                                    tuned micro‑interactions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-mortarboard"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Dedicated Expert Team</h6>
+                                <p class="mb-0 text-secondary small">Seasoned designers & developers who collaborate
+                                    closely with you.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Professional & Reliable</h6>
+                                <p class="mb-0 text-secondary small">Clean code, versioned workflows, and commitments
+                                    delivered on time.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-lightning-charge"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Modern & Performant</h6>
+                                <p class="mb-0 text-secondary small">Responsive by default, fast by design, optimized
+                                    for Core Web Vitals.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-blockquote-right"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6 class="mb-1 fw-semibold">Industry-Ready Curriculum</h6>
+                                <p class="mb-0 text-secondary small">
+                                    Learn the latest tools, frameworks, and real-world workflows used by top companies.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-headset"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Instant Support</h6>
+                                <p class="mb-0 text-secondary small"> Whenever anyone has any query they can call us or
+                                    message us, there's a team 12x7</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6 feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-lightbulb-fill"></i>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Smart, Fast & Future-Ready</h6>
+                                <p class="mb-0 text-secondary small">We turn innovative concepts into scalable,
+                                    high-performance websites crafted for the future of the web.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Trust bar -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap gap-3 gap-md-4 pt-2 border-top justify-content-center">
+                                <div class="d-flex align-items-center gap-2 small text-secondary">
+                                    <i class="bi bi-award"></i>
+                                    <span>Quality‑First Delivery</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 small text-secondary">
+                                    <i class="bi bi-box-seam"></i>
+                                    <span>Maintainable Codebase</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 small text-secondary">
+                                    <i class="bi bi-phone"></i>
+                                    <span>Mobile‑Optimized</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 small text-secondary">
+                                    <i class="bi bi-globe"></i>
+                                    <span>SEO & Accessibility</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!--Technologies-->
+    <style>
+        /* --- Minimal CSS of technologies --- */
+        .logo-cell {
+            min-height: 140px;
+        }
+
+        /* allows space for caption */
+        .logo-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+            width: 100%;
+            background: transparent;
+            border: 0;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        /* stacked images inside figure */
+        .logo-figure {
+            position: relative;
+            width: 100%;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-media {
+            max-height: 64px;
+            width: auto;
+            display: block;
+            transition: opacity .28s ease, transform .28s ease, filter .28s ease;
+        }
+
+        /* front (grayscale) and back (color) */
+        .logo-front {
+            position: relative;
+            z-index: 2;
+            opacity: 1;
+            transform: translateY(0);
+            filter: grayscale(100%) brightness(.95);
+        }
+
+        .logo-back {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) translateY(6px);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 1;
+            filter: none;
+        }
+
+        /* caption below figure (normal flow) */
+        .logo-caption {
+            font-size: .78rem;
+            color: #222;
+            background: rgba(255, 255, 255, 0.95);
+            padding: .18rem .5rem;
+            border-radius: .35rem;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+            opacity: 0;
+            transform: translateY(6px);
+            transition: opacity .28s ease, transform .28s ease;
+            white-space: nowrap;
+        }
+
+        /* hover/focus/active states - reveal back and caption */
+        .logo-item:hover .logo-front,
+        .logo-item:focus .logo-front,
+        .logo-item.is-active .logo-front {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+
+        .logo-item:hover .logo-back,
+        .logo-item:focus .logo-back,
+        .logo-item.is-active .logo-back {
+            opacity: 1;
+            transform: translate(-50%, -50%) translateY(0);
+        }
+
+        .logo-item:hover .logo-caption,
+        .logo-item:focus .logo-caption,
+        .logo-item.is-active .logo-caption {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* subtle borders */
+        .cell-border {
+            border-bottom: 1px solid rgba(0, 0, 0, .06);
+            border-right: 1px solid rgba(0, 0, 0, .06);
+            padding: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .row-cols-md-6>.col-md-2:last-child {
+                border-right: 0;
+            }
+        }
+
+        /* mobile tweaks */
+        @media (max-width:576px) {
+            .logo-figure {
+                height: 72px;
+            }
+
+            .logo-media {
+                max-height: 56px;
+            }
+
+            .logo-caption {
+                font-size: .72rem;
+                padding: .14rem .4rem;
+            }
+        }
+    </style>
+    <section>
+        <div class="container-fluid fade-scroll">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Technologies You'll Work On</h2>
+                </div>
+            </div>
+
+            <!-- responsive grid: 2 cols xs, 3 sm, 6 md+ -->
+            <div class="row  g-0 ">
+                <!-- 1 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/django-hover.png"
+                        data-caption="Django" aria-label="Django">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/django.png" alt="Django"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/react-hover.gif" data-caption="React"
+                        aria-label="React">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/atom.png" alt="React"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/nodejs-hover.png"
+                        data-caption="Node.js" aria-label="Node.js">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/nodejs.png" alt="Node.js"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/python-hover.png"
+                        data-caption="Python" aria-label="Python">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/python.png" alt="Python"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/css-hover.png" data-caption="CSS / UI"
+                        aria-label="CSS / UI">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/css.png" alt="CSS / UI"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+
+
+                <!-- 7 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/mysql-hover.png" data-caption="MySQL"
+                        aria-label="MySQL">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/mysql.png" alt="MySQL"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+                <!-- 8 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/html-hover.png" data-caption="HTML5"
+                        aria-label="HTML5">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/html.png" alt="HTML5"
+                                loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+
+
+
+                <!-- 14 -->
+                <div class="col-3 logo-cell d-flex align-items-center justify-content-center cell-border">
+                    <button class="logo-item" data-hover="../technology/java-script-hover.png"
+                        data-caption="JavaScript" aria-label="JavaScript">
+                        <figure class="logo-figure m-0">
+                            <img class="logo-media logo-front" src="../technology/java-script.png"
+                                alt="JavaScript" loading="lazy">
+                            <img class="logo-media logo-back" alt="" aria-hidden="true" loading="lazy">
+                        </figure>
+                        <div class="logo-caption" aria-hidden="true"></div>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Testemonials-->
+    <style>
+        .testimonial-editorial {
+            background: #efede6;
+        }
+
+        .testimonial-card {
+            background: #fff;
+            height: 100%;
+        }
+
+        .carousel-item {
+            transition: transform 0.8s ease-in-out;
+        }
+
+        .testimonial-avatar {
+            width: 85px;
+            height: 85px;
+            object-fit: cover;
+            margin-bottom: 48px;
+            border-right: 2px solid rgba(0, 0, 0, 0.65);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+        }
+
+        .testimonial-text {
+            padding: 0 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 42px;
+            color: #222;
+            font-weight: 900;
+        }
+
+        .testimonial-author {
+            border-top: 2px solid rgba(0, 0, 0, 0.25);
+            padding: 1rem;
+        }
+
+        .testimonial-author strong {
+            display: block;
+            font-size: 0.9rem;
+            padding: 0 1rem;
+        }
+
+        .testimonial-author span {
+            font-size: 0.8rem;
+            color: #777;
+            padding: 0 1rem;
+        }
+
+        /* Hide arrows (editorial style) */
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none;
+        }
+    </style>
+    <section class="py-5 testimonial-editorial">
+        <div class="container">
+
+            <!-- Label -->
+            <div class="mb-4">
+                <span class="badge bg-dark text-uppercase px-2 py-1" style="font-size:10px;">
+                    Students love us
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div class="mb-5">
+                <h2 class="fw-semibold" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                    Built by outsiders.<br>
+                    <b>Loved by insiders.</b>
+                    <span class="text-danger">Feared by dinosaurs.</span>
+                </h2>
+            </div>
+
+            <!-- Carousel -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500"
+                data-bs-pause="false">
+
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                        class="active bg-dark mt-5"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        class="bg-dark mt-5"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                        class="bg-dark mt-5"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"
+                        class="bg-dark mt-5"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4"
+                        class="bg-dark mt-5"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <!-- SLIDE 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Ankit_Yadav.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“This batch helped me understand HTML, CSS, and
+                                        Bootstrap from scratch. I can now build responsive websites confidently.”
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <strong>Aditya Sharma</strong>
+                                        <span>CTO, Jaipur SaaS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Aarti_Shrama.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“The way concepts were explained made development
+                                        feel simple. I built my first real website within weeks.”</p>
+                                    <div class="testimonial-author">
+                                        <strong>Ananya Mehta</strong>
+                                        <span>Founder, Delhi HealthTech</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Harshit_Malhotra.jpg"
+                                        class="testimonial-avatar">
+                                    <p class="testimonial-text">“Practical learning was the biggest advantage. Every
+                                        topic was supported with hands-on projects.”</p>
+                                    <div class="testimonial-author">
+                                        <strong>Rohan Kulkarni</strong>
+                                        <span>Head of Sales, Pune</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Manpreet_Singh.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“The structured curriculum helped me understand
+                                        website layouts, responsiveness, and clean design.”</p>
+                                    <div class="testimonial-author"><strong>Vikram Singh</strong><span>Noida</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Divya_Kapoor.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“This batch focuses on real skills, not just theory.
+                                        I can now create modern, mobile-friendly websites.”</p>
+                                    <div class="testimonial-author"><strong>Pooja Nair</strong><span>Kochi</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Ravi_Mehta.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“Learning Bootstrap here saved me a lot of time. I
+                                        can design professional layouts quickly.”</p>
+                                    <div class="testimonial-author"><strong>Kunal
+                                            Shah</strong><span>Ahmedabad</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 3 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Priya_Kochar.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“Every class added value. From basics to advanced
+                                        layouts, everything was clear and practical.”</p>
+                                    <div class="testimonial-author"><strong>Neha Verma</strong><span>Indore</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Vikram_Deshpande.jpg"
+                                        class="testimonial-avatar">
+                                    <p class="testimonial-text">“The live projects helped me build confidence. I now
+                                        have websites to show in my portfolio.”</p>
+                                    <div class="testimonial-author"><strong>Arjun Patel</strong><span>Surat</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Sania_Bhatia.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“This batch helped me move from beginner to
+                                        confident frontend developer in a short time.”</p>
+                                    <div class="testimonial-author"><strong>Ritika Bose</strong><span>Kolkata</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 4 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Saurabh_Jain.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“The teaching style is simple and beginner-friendly.
+                                        Even complex topics felt easy.”</p>
+                                    <div class="testimonial-author"><strong>Sandeep
+                                            Rao</strong><span>Bengaluru</span></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Tanya_Reddy.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“I learned how real websites are structured. The
+                                        focus on clean code really helped.”</p>
+                                    <div class="testimonial-author"><strong>Megha Joshi</strong><span>Nagpur</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="https://randomuser.me/api/portraits/men/24.jpg"
+                                        class="testimonial-avatar">
+                                    <p class="testimonial-text">“After completing this batch, I feel confident
+                                        applying for internships in web development.”</p>
+                                    <div class="testimonial-author"><strong>Aman Khan</strong><span>Bhopal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 5 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/young_woman.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“Now I understand responsive design properly. My
+                                        websites work perfectly on all devices.”</p>
+                                    <div class="testimonial-author"><strong>Simran
+                                            Kaur</strong><span>Chandigarh</span></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Radhika_Chauhan.jpg" class="testimonial-avatar">
+                                    <p class="testimonial-text">“This batch gave me a strong foundation in web
+                                        development. Highly recommended for beginners.”</p>
+                                    <div class="testimonial-author"><strong>Rahul Das</strong><span>Guwahati</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="testimonial-card">
+                                    <img src="../testimonials_image/Isha_Malhotra.png" class="testimonial-avatar">
+                                    <p class="testimonial-text">“Straightforward and effective.”</p>
+                                    <div class="testimonial-author"><strong>Isha Malhotra</strong><span>Delhi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <style>
+        .ribbon-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .ribbon {
+            background: #f89d0e;
+            color: #1a1a1a;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 3px;
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .ribbon:before,
+        .ribbon:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+        }
+
+        .ribbon:before {
+            left: -20px;
+            border-right: 20px solid #f89d0e;
+        }
+
+        .ribbon:after {
+            right: -20px;
+            border-left: 20px solid #f89d0e;
+        }
+
+        .phone-icon {
+            font-size: 18px;
+        }
+    </style>
+
+    <style>
+        /* ===== Dark, accessible footer (higher contrast) ===== */
+
+        .footer-light {
+            --f-bg: #1e293b;
+            /* slate-800 */
+            --f-bg-2: #0f172a;
+            /* slate-900 */
+            --f-text: #e2e8f0;
+            /* slate-200 */
+            --f-muted: #9fb0c6;
+            /* lighter slate for legibility */
+            --f-border: #334155;
+            /* slate-700 */
+            --f-brand: #38bdf8;
+            /* sky-400 accent */
+            background: linear-gradient(180deg, var(--f-bg) 0%, var(--f-bg-2) 100%);
+            color: var(--f-text);
+        }
+
+        .footer-light .border-top {
+            border-top-color: var(--f-border) !important;
+        }
+
+        .footer-light hr {
+            color: var(--f-border);
+            opacity: 1;
+        }
+
+        /* Body copy / muted */
+
+        .footer-light .text-secondary {
+            color: var(--f-muted) !important;
+        }
+
+        /* Brand mark */
+
+        .footer-light .brand-box {
+            width: 40px;
+            height: 40px;
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--f-brand);
+        }
+
+        .footer-light .brand-box svg {
+            fill: currentColor;
+        }
+
+        /* Links */
+
+        .footer-light .footer-link {
+            color: var(--f-text);
+            text-decoration: none;
+        }
+
+        .footer-light .footer-link:hover {
+            color: var(--f-brand);
+            text-decoration: underline;
+        }
+
+        /* Social outline buttons – make them light-on-dark */
+
+        .footer-light .btn-outline-dark-subtle {
+            color: var(--f-text);
+            background: transparent;
+            border-color: var(--f-border);
+        }
+
+        .footer-light .btn-outline-dark-subtle:hover,
+        .footer-light .btn-outline-dark-subtle:focus {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #475569;
+            /* slate-600 */
+        }
+
+        .footer-light .btn-outline-dark-subtle svg {
+            fill: currentColor;
+        }
+
+        /* Forms – dark surface with readable text/placeholder */
+
+        .footer-light .form-control {
+            background-color: #0b1220;
+            border-color: var(--f-border);
+            color: var(--f-text);
+        }
+
+        .footer-light .form-control::placeholder {
+            color: #8aa0b8;
+        }
+
+        /* improved contrast */
+
+        .footer-light .form-control:focus {
+            background-color: #0b1220;
+            border-color: var(--f-brand);
+            box-shadow: 0 0 0 .25rem rgba(56, 189, 248, .15);
+        }
+
+        /* Invalid state visibly red on dark */
+
+        .footer-light .form-control.is-invalid {
+            border-color: #fca5a5;
+            box-shadow: 0 0 0 .25rem rgba(239, 68, 68, .15);
+        }
+
+        .footer-light .invalid-feedback {
+            color: #fecaca;
+        }
+
+        /* Badges – softer light chip on dark */
+
+        .footer-light .badge.text-bg-light {
+            background-color: rgba(255, 255, 255, .08) !important;
+            color: var(--f-text) !important;
+            border: 1px solid var(--f-border);
+        }
+
+        /* Bottom divider spacing color already handled */
+    </style>
+
+    <!-- ===== Developer Footer (Light) ===== -->
+    <footer class="footer-light border-top " id="site-footer">
+        <div class="container-fluid pt-3 pb-2">
+            <div class="row gy-4">
+                <!-- Brand & mission -->
+                <div class="col-12 col-lg-4 ">
+                    <a href="/" class="text-decoration-none d-inline-flex align-items-center gap-2 mb-3">
+                        <span class="d-inline-flex align-items-center justify-content-center rounded-3 brand-box">
+                            <!-- <> symbol -->
+                            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.6 16.6 3.9 12l4.7-4.6 1.4 1.5L6.8 12l3.2 3.1-1.4 1.5Zm6.8 0-1.4-1.5 3.2-3.1-3.2-3.1 1.4-1.5 4.7 4.6-4.7 4.6Z" />
+                            </svg>
+                        </span>
+                        <span class="fs-5 fw-semibold text-white">Theta Academy</span>
+                    </a>
+                    <p class="text-secondary mb-3">
+                        Tutorials, boilerplates, and tools to help web developers ship faster. Built by instructors
+                        & practitioners.
+                    </p>
+
+                    <!-- Socials -->
+                    <div class="d-flex flex-wrap gap-2">
+                        <a class="btn btn-sm btn-outline-dark-subtle d-inline-flex align-items-center gap-2" href="#"
+                            aria-label="GitHub">
+                            <i class="bi bi-whatsapp"></i>
+                            <span class="d-none d-sm-inline">WhatsApp</span>
+                        </a>
+                        <a class="btn btn-sm btn-outline-dark-subtle" href="#" aria-label="LinkedIn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4V15c0-1.5 0-3.3-2-3.3-2 0-2.4 1.6-2.4 3.2v6.1H10V9Z" />
+                            </svg>
+                        </a>
+                        <a class="btn btn-sm btn-outline-dark-subtle" href="#" aria-label="X (Twitter)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M20.2 3H16l-3.7 5.6L8 3H3.8l6 8.7L3.6 21h4.2l4-6 4.1 6h4.2L14 11.6 20.2 3Z" />
+                            </svg>
+                        </a>
+                        <a class="btn btn-sm btn-outline-dark-subtle" href="#" aria-label="YouTube">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M23 12s0-3.6-.5-5.3a3.1 3.1 0 0 0-2.2-2.2C18.6 4 12 4 12 4s-6.6 0-8.3.5A3.1 3.1 0 0 0 1.5 6.7C1 8.4 1 12 1 12s0 3.6.5 5.3a3.1 3.1 0 0 0 2.2 2.2C5.4 20 12 20 12 20s6.6 0 8.3-.5a3.1 3.1 0 0 0 2.2-2.2c.5-1.7.5-5.3.5-5.3ZM10 15.5v-7l6 3.5-6 3.5Z" />
+                            </svg>
+                        </a>
+                        <a class="btn btn-sm btn-outline-dark-subtle" href="#" aria-label="YouTube">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-sm btn-outline-dark-subtle" href="#" aria-label="YouTube">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product / Tools -->
+                <div class="col-6  col-lg-4">
+                    <h6 class="fw-semibold text-white mb-3">SERVICES</h6>
+                    <div class=" d-block d-md-flex">
+                        <ul class="list-unstyled small m-0 me-3">
+                            <li class="mb-2"><a class="footer-link" href="#">Website Design</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">Web Design & Development</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">Portal Design & Development</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">E Commerce Solution</a></li>
+                            <li><a class="footer-link" href="#">Software Development</a></li>
+                        </ul>
+
+                        <ul class="list-unstyled small mx-0 mt-  ">
+                            <li class="mb-2"><a class="footer-link" href="#">Data Science Solution</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">Bulk SMS</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">Search Engine Marketing</a></li>
+                            <li class="mb-2"><a class="footer-link" href="#">Seach Engine Optimization</a></li>
+                            <li><a class="footer-link" href="#">Application Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- Address -->
+                <div class="col-6 col-lg-3">
+                    <h6 class="fw-semibold text-white mb-3">ADDRESS</h6>
+                    <p class="text-secondary small mb-3"><span><a
+                                href="https://www.google.com/maps/dir/30.735249,76.778027/Cabin+No.+413,+Theta+Academy+Best+Data+Science+Course+in+Chandigarh,+SCO+107-108-109,+Sector+34A,+Chandigarh,+160022/@30.7222635,76.7684453,21z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390fedad889b1e95:0x887b91943ddaedf0!2m2!1d76.7685097!2d30.7221745?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D "
+                                target="_blank" class="text-decoration-none  text-secondary"><i
+                                    class="bi bi-geo-alt-fill mx-1"></i></span>Cabin No. 413, SCO 107-108-109, 2th
+                        Floor, <b class="ms-4">Sector 34-A, Chandigarh, 160022</b></p>
+                    </p>
+
+                    <div class="ribbon-container text-center mb-3 ms-5">
+                        <div class="ribbon">
+                            <h5 class="mt-2"> <a href="tel:+916239006443" class="text-black text-decoration-none">
+                                    <b> +91 6239006443 </b></a></h5>
+                        </div>
+                    </div>
+
+                    <!-- Tech badges -->
+                    <div class="d-flex flex-wrap gap-2 ">
+
+                        <span class=" p-0 "><a href=""><svg xmlns="http://www.w3.org/2000/svg" Height="60" width="75"
+                                    enable-background="new 0 0 48 48" viewBox="0 0 48 48" id="visa">
+                                    <polygon fill="#1565c0"
+                                        points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                                    <path fill="#1565c0"
+                                        d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z">
+                                    </path>
+                                    <path fill="#ff9800" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+	S8.046,19.229,9.711,25.055z"></path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span class=""><a href=""><img src="../Live_work/payment.png" alt=""></a></span>
+                        <span><a href="" class="bg-body pt-1 pb-2"><img src="../Live_work/paypal.png" alt=""></a></span>
+                        <span><a href="" class="bg-body pb-2"><img src="../Live_work/paytm.png" alt=""
+                                    class="mt-2"></a></span>
+
+                    </div>
+                </div>
+            </div>
+
+            <hr class="">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between gap-3 text-center">
+                <p class="small text-secondary m-0 ">
+                    © <span id="year"></span> Theta Academy. Open-source friendly. MIT licensed.
+                </p>
+                <ul class="list-unstyled d-flex flex-wrap gap-3 m-0 small">
+                    <li><a class="footer-link" href="#top" class="text-decoration-none">Back to top ↑</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+    const steps = document.querySelectorAll('.story-step');
+    const img = document.getElementById('storyImage');
+
+    window.addEventListener('scroll', () => {
+        steps.forEach(step => {
+            const r = step.getBoundingClientRect();
+            if (r.top < innerHeight / 2 && r.bottom > innerHeight / 2) {
+                img.src = step.dataset.img;
+            }
+        });
+    });
+</script>
+
+
+<!-- Minimal JS: wires up hover/back images and mobile tap toggle -->
+<script>
+    (function () {
+        const items = document.querySelectorAll('.logo-item');
+
+        items.forEach(item => {
+            const frontImg = item.querySelector('.logo-front');
+            const backImg = item.querySelector('.logo-back');
+            const captionEl = item.querySelector('.logo-caption');
+
+            const hoverSrc = item.getAttribute('data-hover') || '';
+            const captionText = item.getAttribute('data-caption') || '';
+            captionEl.textContent = captionText;
+
+            // If a specific hover image is provided use it, otherwise reuse front image (but back will be shown without grayscale)
+            if (hoverSrc.trim()) {
+                backImg.src = hoverSrc;
+                backImg.alt = captionText + ' (hover)';
+            } else {
+                backImg.src = frontImg.src;
+                backImg.alt = captionText + ' (color)';
+            }
+
+            // Keyboard accessibility: toggle on Enter/Space
+            item.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    item.classList.toggle('is-active');
+                }
+            });
+
+            // touch / click: toggle active class for mobile users
+            item.addEventListener('click', (e) => {
+                item.classList.toggle('is-active');
+            });
+        });
+
+        // Close any active logo when tapping outside (mobile UX)
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.logo-item')) {
+                document.querySelectorAll('.logo-item.is-active').forEach(it => it.classList.remove('is-active'));
+            }
+        });
+    })();
+</script>
+
+
+
+<script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    document.querySelectorAll(".fade-scroll")
+        .forEach(el => observer.observe(el));
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
